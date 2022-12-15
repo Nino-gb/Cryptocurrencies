@@ -15,6 +15,7 @@ Use unsupervised learning to analyze crypto_data csv,  process the data to fit t
 - Use get_dummies() method to create variables for the two text features, Algorithm and ProofType, and store the resulting data in a new DataFrame named X and StandardScaler fit_transform() function to standardize the features from the X DataFrame
 
 ***crypto_df***
+
 ![Screenshot 2022-12-14 at 10 38 43 PM](https://user-images.githubusercontent.com/110786136/207773906-854af1ca-b01b-419c-8030-f77ef108ce77.png)
 
 ### Deliverable 2: Reducing Data Dimensions Using PCA
@@ -24,6 +25,7 @@ Use unsupervised learning to analyze crypto_data csv,  process the data to fit t
 - Create a new DataFrame named pcs_df that contain the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.
 
 ***pcs_df***
+
 ![Screenshot 2022-12-14 at 10 36 55 PM](https://user-images.githubusercontent.com/110786136/207773665-ec307167-5dec-496a-8bcc-4f9102698dfc.png)
 
 ### Deliverable 3: Clustering Cryptocurrencies Using K-means
